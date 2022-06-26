@@ -1,0 +1,198 @@
+/*common start*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #172d5c;
+}
+/*common end*/
+
+header{
+    padding: 15px 0;
+    border-bottom:2px solid #ddd;
+
+}
+.container {
+    margin: 0 auto;
+    width:90%;
+    /*border: 1px solid red;*/
+    overflow: hidden;
+
+}
+
+.logo {
+    float:left;
+    width:9%;
+    /*border:1px solid blue;*/
+
+}
+.logo img{
+    width: 100%;
+}
+
+.menu {
+    float: right;
+    width:50%;
+    /*border:1px solid blue;*/
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 0 20px;
+    display: inline-block;
+    color: #172d5c;;
+    
+}
+.menu ul li a:hover{
+    color: #008aff;
+
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+
+}
+
+/*banner start*/
+.banner {
+    padding: 50px 0;
+}
+
+.container2 {
+    margin: 0 auto;
+    width:55%;
+    text-align: center;
+    /*border:1px solid red;*/
+
+}
+
+.b_h1 {
+    margin: 0;
+    font-size: 50px;
+    padding: 0 50px;
+}
+.b_h1 span{
+    color:#008aff
+}
+
+.b_p {
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+.b_img {
+    margin: 0 auto;
+    width: 75%;
+    /*border:1px solid blue;*/
+
+}
+.b_img img{
+    width: 100%;
+}
+/*banner end*/
+/*success start*/
+.success{
+    padding: 50px 0;
+}
+.container3{
+    margin: 0 auto;
+    width:60%;
+    overflow: hidden;
+    /*border:1px solid red;*/
+
+}
+.s_left{
+    padding-left: 10px;
+    padding-right: 0;
+    width: 47%;
+    /*border: 1px solid green;*/
+    float: left;
+    text-align: right;
+
+}
+.s_left h2{
+    color: #f15767;
+    font-size: 45px;
+    margin: 0;
+}
+.s_left p{
+    line-height: 25px;
+    margin: 5px 0 0 30px;
+}
+.s_right{
+    padding-left: 0;
+    padding-right: 10px;
+    width: 47%;
+    /*border: 1px solid green;*/
+    float: right;
+}
+.s_right h1{
+    font-size: 47px;
+    margin: 0;
+}
+/*success end*/
+/*feature start*/
+.feature{
+    padding-bottom: 60px;
+}
+.f_single{
+    float:left;
+    width:27%;
+    /*border: 1px solid blue;*/
+    padding: 50px 2.33%;
+    margin-right: 2.5%;
+}
+.f_single:last-child{
+    margin-right: 0;
+}
+.f_img{
+    
+}
+.f_img img{
+    width: 100%;
+}
+.f_single h2{
+    margin: 20px 0 12px;
+    font-size: 21px;
+}
+.f_single p{
+    margin: 0;
+    line-height: 25px;
+}
+.pink{
+    background-color: #feebed;
+}
+.green{
+    background-color: #eaf9f4;
+}
+.yellow{
+    background-color: #fff7e8;
+}
+/*feature end*/
+/*footer start*/
+footer{
+    padding: 30px 0;
+    background-color: #008aff;
+    
+}
+footer p{
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+footer p a{
+    color: white;
+    text-decoration: none;
+}
+footer p a:hover{
+    color: #3f3d56;
+}
+/*footer end*/
